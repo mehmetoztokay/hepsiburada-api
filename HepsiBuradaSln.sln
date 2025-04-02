@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E708B4EB-E0E4-4678-AF16-52D23F226935}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F172764E-2FB5-4F67-9794-7566DECBFF0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D750C432-539C-47FA-85BF-058F86F80C57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Application", "Core\HepsiBurada.Application\HepsiBurada.Application.csproj", "{677AC09D-58B2-4653-AFF1-4871D841D615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Domain", "Core\HepsiBurada.Domain\HepsiBurada.Domain.csproj", "{7EFFF49A-47BF-4D10-AAC5-174F0C7B5366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBura.Infrastructure", "Infrastructure\HepsiBura.Infrastructure\HepsiBura.Infrastructure.csproj", "{AF2AAA85-35D8-471F-9CA6-0C4E610FA59C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Persistence", "HepsiBurada.Persistence\HepsiBurada.Persistence.csproj", "{97809E68-61A8-4564-ABBF-F289F5E9EB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiBurada.Api", "HepsiBurada.Api\HepsiBurada.Api.csproj", "{5EAA318A-D776-438E-AF2B-201983CCDD3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{677AC09D-58B2-4653-AFF1-4871D841D615} = {E708B4EB-E0E4-4678-AF16-52D23F226935}
+		{7EFFF49A-47BF-4D10-AAC5-174F0C7B5366} = {E708B4EB-E0E4-4678-AF16-52D23F226935}
+		{AF2AAA85-35D8-471F-9CA6-0C4E610FA59C} = {F172764E-2FB5-4F67-9794-7566DECBFF0C}
+		{97809E68-61A8-4564-ABBF-F289F5E9EB6F} = {F172764E-2FB5-4F67-9794-7566DECBFF0C}
+		{5EAA318A-D776-438E-AF2B-201983CCDD3F} = {D750C432-539C-47FA-85BF-058F86F80C57}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677AC09D-58B2-4653-AFF1-4871D841D615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677AC09D-58B2-4653-AFF1-4871D841D615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677AC09D-58B2-4653-AFF1-4871D841D615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677AC09D-58B2-4653-AFF1-4871D841D615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EFFF49A-47BF-4D10-AAC5-174F0C7B5366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EFFF49A-47BF-4D10-AAC5-174F0C7B5366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EFFF49A-47BF-4D10-AAC5-174F0C7B5366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EFFF49A-47BF-4D10-AAC5-174F0C7B5366}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2AAA85-35D8-471F-9CA6-0C4E610FA59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2AAA85-35D8-471F-9CA6-0C4E610FA59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2AAA85-35D8-471F-9CA6-0C4E610FA59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2AAA85-35D8-471F-9CA6-0C4E610FA59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97809E68-61A8-4564-ABBF-F289F5E9EB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97809E68-61A8-4564-ABBF-F289F5E9EB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97809E68-61A8-4564-ABBF-F289F5E9EB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97809E68-61A8-4564-ABBF-F289F5E9EB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAA318A-D776-438E-AF2B-201983CCDD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAA318A-D776-438E-AF2B-201983CCDD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAA318A-D776-438E-AF2B-201983CCDD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAA318A-D776-438E-AF2B-201983CCDD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
